@@ -74,8 +74,12 @@ if manager_exception_result > manager_condition_result:
     print('using manager: condition is faster')
 elif manager_exception_result < manager_condition_result:
     print('using manager: exception is faster')
-
+else:
+    print('using manager: same speed')
+    
 if decorator_exception_result > decorator_condition_result:
     print('using decorator: condition is faster')
 elif decorator_exception_result < decorator_condition_result:
     print('using decorator: exception is faster')
+else:
+    print('using decorator: same speed')
